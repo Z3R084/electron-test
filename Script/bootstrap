@@ -3,4 +3,7 @@ rimraf = require( './utils/rimraf.js' );
 
 var fs = require( 'fs' );
 var verifyRequirements = require( './utils/verify-requirements' );
+var safeExec = require( './utils/child-process-wrapper.js' ).safeExec;
+var path = require( 'path' );
+var pkg = require( '../package.json' );
 console.log( 'test' );
