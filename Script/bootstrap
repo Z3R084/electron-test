@@ -1,0 +1,6 @@
+require( './utils/config.js' );
+rimraf = require( './utils/rimraf.js' );
+
+var fs = require( 'fs' );
+var verifyRequirements = require( './utils/verify-requirements' );
+console.log( 'test' );
